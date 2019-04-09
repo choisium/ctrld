@@ -27,10 +27,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ALLOWED_HOSTS = []
 
-if os.environ.get('DJANGO_SECRET_KEY', False):
-    SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
+if os.environ.get('CTRLD_SECRET_KEY', False):
+    SECRET_KEY = os.environ['CTRLD_SECRET_KEY']
     DEBUG = False
-    ALLOWED_HOSTS = ['www.choisium.com', 'choisium.com', 'ctrld.choisium.com']
+    ALLOWED_HOSTS = ['ctrld.choisium.com']
 else:
     SECRET_KEY = '2m54v7b36pf2#*a6_(%z-4!g4+coikd&7nqqib+tohqa-cn4v^'
     DEBUG = True
