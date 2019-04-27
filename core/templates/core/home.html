@@ -1,1 +1,13 @@
-<p>Hello World!</p>
+{% load static %}
+{% load render_bundle from webpack_loader %}
+
+<!DOCTYPE html>
+<html>
+    {% include 'core/head.html' %}
+    
+    <body>
+        <div id="home"></div>
+        {% render_bundle 'vendors~main' %}
+        {% render_bundle 'main' %}
+    </body>
+</html>
