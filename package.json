@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/choisium/ctrld#readme",
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
     "@toast-ui/react-calendar": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -29,7 +30,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "recompose": "^0.30.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "tui-calendar": "^1.12.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

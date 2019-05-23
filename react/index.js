@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import TuiCalendar from './TuiCalendar';
+
 var home = document.getElementById("home");
 
 class Home extends React.Component {
@@ -8,6 +10,7 @@ class Home extends React.Component {
     return (
       <div>
         <p>Hello, World!</p>
+        <TuiCalendar />
       </div>
     )
   }
