@@ -4,3 +4,8 @@ from .models import *
 
 # Register your models here.
 admin.site.register(User, UserAdmin)
+admin.site.register(Genre)
+admin.site.register(Profile)
+admin.site.register(Calendar)
+admin.site.register(Event)
+admin.site.register(Schedule)
